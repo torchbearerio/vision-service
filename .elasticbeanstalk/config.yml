@@ -1,0 +1,16 @@
+branch-defaults:
+  master:
+    environment: vision-service-dev
+environment-defaults:
+  color-service-dev:
+    branch: null
+    repository: null
+deploy:
+  artifact: build.zip
+global:
+  application_name: vision-service
+  default_ec2_keyname: torchbearer
+  default_platform: 64bit Amazon Linux 2017.03 v2.6.0 running Docker 1.12.6
+  default_region: us-west-2
+  profile: torchbearer
+  sc: git
